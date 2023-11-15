@@ -23,7 +23,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bc8fa7e3-0ff5-41de-b4ad-10ec548893f5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 7,
+  "origin": 4,
   "parent": {
     "name": "CharlottesShop",
     "path": "CharlottesShop.yyp",
@@ -60,7 +60,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 64,
-    "yorigin": 128,
+    "yorigin": 64,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

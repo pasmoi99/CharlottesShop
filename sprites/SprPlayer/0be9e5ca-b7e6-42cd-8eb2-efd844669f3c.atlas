@@ -1,0 +1,27 @@
+ROSE.png
+size:256,256
+filter:Linear,Linear
+arm_L_bot
+bounds:2,56,46,48
+offsets:0,1,46,49
+rotate:90
+arm_L_top
+bounds:2,7,37,52
+rotate:90
+arm_R bot
+bounds:123,7,31,56
+offsets:4,3,39,60
+arm_R_top
+bounds:123,65,37,49
+rotate:90
+body
+bounds:56,11,65,91
+head
+bounds:2,104,174,148
+offsets:0,1,174,149
+ponytail
+bounds:178,46,68,206
+shoe_L
+bounds:156,2,38,42
+shoe_R
+bounds:156,2,38,42
