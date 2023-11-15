@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "Pause",
-    "path": "folders/Sprites/Final Sprites/Pause.yy",
+    "path": "folders/Sprites/Pause.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -44,7 +44,7 @@
     "eventStubScript": null,
     "eventToFunction": {},
     "length": 1.0,
-    "lockOrigin": false,
+    "lockOrigin": true,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
     "playbackSpeed": 1.0,

@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "TitreMenu",
-    "path": "folders/Sprites/Final Sprites/TitreMenu.yy",
+    "path": "folders/Sprites/TitreMenu.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -1,0 +1,1 @@
+global.musicVolume = 1;
