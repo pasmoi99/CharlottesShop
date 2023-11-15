@@ -30,12 +30,15 @@ scissor_cd = 300;
 
 is_touch = false;
 
-
-instance_create_depth(0,0,0,ObjCamera);
-instance_create_depth(0,0,0,ObjPause);
-instance_create_depth(0,0,0,ObjNeedleThread);
+layer_create(-100,"Pause");
+layer_create(-100,"Control");
 layer_create(-100,"Menus");
 layer_create(depth,"Weapons");
+instance_create_layer(0,0,"Control",ObjCamera);
+instance_create_layer(0,0,"Pause",ObjPause);
+instance_create_layer(0,0,"Weapons",ObjNeedleThread);
+instance_create_layer(0,0,"Control",controller_obj);
+
 // power up code
 
 powerup = false;

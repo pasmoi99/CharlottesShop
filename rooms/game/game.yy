@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "game",
-  "creationCodeFile": "",
+  "creationCodeFile": "rooms/game/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
@@ -37,7 +37,7 @@
   "roomSettings": {
     "Height": 1080,
     "inheritRoomSettings": false,
-    "persistent": false,
+    "persistent": true,
     "Width": 1920,
   },
   "sequenceId": null,

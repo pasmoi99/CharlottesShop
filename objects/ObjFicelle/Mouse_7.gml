@@ -1,0 +1,1 @@
+grab = false // l'objet n'est plus grab
