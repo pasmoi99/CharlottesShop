@@ -1,1 +1,1 @@
-room_transition = game;
+room_transition = Menu;

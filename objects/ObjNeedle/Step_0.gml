@@ -17,9 +17,20 @@ if controller_obj.portNum == 29
 }
 else
 {
-	//if (haxis != 0) || (vaxis != 0)
-	image_angle = point_direction(x, y, controller_obj.haxis, controller_obj.vaxis);
-	ang=point_direction(controller_obj.x, controller_obj.y, controller_obj.haxis, controller_obj.vaxis)*-1;
+	// CURSOR INPUT
+	// Right axis
+	hcursor = gamepad_axis_value(controller_obj.portNum, gp_axisrh);
+	vcursor = gamepad_axis_value(controller_obj.portNum, gp_axisrv);
+	
+	// CURSOR OUTPUT
+	if abs(hcursor) < .2
+		hcursor = 0;
+	if abs(vcursor) < .2
+		vcursor = 0;
+	
+	if (hcursor != 0) || (vcursor != 0)
+	image_angle = point_direction(x, y, hcursor, vcursor);
+	ang=point_direction(ObjPlayer.x, ObjPlayer.y, hcursor, vcursor)*-1;
 
 // CURSOR OUTPUT
 /*if abs(hcursor) < .2
