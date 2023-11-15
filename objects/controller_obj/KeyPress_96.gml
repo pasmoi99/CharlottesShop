@@ -1,0 +1,1 @@
+game_set_speed(0, gamespeed_fps)

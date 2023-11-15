@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SprAttackArcTemp",
-    "path": "sprites/SprAttackArcTemp/SprAttackArcTemp.yy",
+    "name": "woosh_melee",
+    "path": "sprites/woosh_melee/woosh_melee.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -10,25 +10,61 @@ function reset_variables()
 
 function get_input() 
 {
-	if keyboard_check(ord("Q")) left = 1;
-	if (gamepad_button_check(0, gp_padd) and gamepad_axis_value(0, gp_axislv) > 0.8)
-		left = 1;
-	if keyboard_check(ord("D"))
-		right = 1;
-	if keyboard_check(ord("Z"))
-		up = 1;
-	if keyboard_check(ord("S"))
-		down = 1;
+
+	if controller_obj.portNum == 29
+	{
+		if keyboard_check(ord("Q")) 
+			left = 1;
+		if keyboard_check(ord("D"))
+			right = 1;
+		if keyboard_check(ord("Z"))
+			up = 1;
+		if keyboard_check(ord("S"))
+			down = 1;
 	
-	if keyboard_check_pressed(vk_space)
-		dash = true;
+		if keyboard_check_pressed(vk_space)
+			dash = true;
+	}
+	else
+	{
+		/*if controller_obj.haxis < 0
+		{
+			left = controller_obj.haxis
+		}
+		if controller_obj.haxis > 0
+		{
+			right = controller_obj.haxis
+		}
+		if controller_obj.vaxis < 0
+		{
+			up = controller_obj.vaxis
+		}
+		if controller_obj.vaxis > 0
+		{
+			down = controller_obj.vaxis
+		} */
+		
+		if (controller_obj.bttd == true)
+		{
+			dash = true	;
+		}
+	} 
 }
 
 function calc_movement()
 {
-	var _hmove = right - left;
-	var _vmove = down - up;
-	var _facing = -sign(_hmove);
+	if (controller_obj.portNum == 29)
+	{
+		var _hmove = right - left;
+		var _vmove = down - up;
+		var _facing = -sign(_hmove);
+	}
+	else
+	{
+		var _hmove = controller_obj.haxis;
+		var _vmove = controller_obj.vaxis;
+		var _facing = -sign(_hmove);
+	}
 	if _facing != 0 
 	{
 		facing = _facing;
@@ -53,6 +89,8 @@ function calc_movement()
 		state = states.IDLE;
 	}
 }
+
+
 
 
 
@@ -143,14 +181,23 @@ function CollisionDoor()
 
 function check_dash()
 {
-	var _hmove = right - left;
-	var _vmove = down - up;
-	var _facing = -sign(_hmove);
+	if (controller_obj.portNum == 29)
+	{
+		var _hmove = right - left;
+		var _vmove = down - up;
+		var _facing = -sign(_hmove);
+	}
+	else
+	{
+		var _hmove = controller_obj.haxis;
+		var _vmove = controller_obj.vaxis;
+		var _facing = -sign(_hmove);
+	}
 	if _facing != 0 
 	{
 		facing = _facing;
 	}
-	if (dash==true) and (can_dash==true)
+	if (dash==true) and (can_dash==true) and (_hmove != 0 or _vmove != 0)
 	{
 		state = states.DASH;
 		dash_timer = dash_timer_initial;
@@ -175,6 +222,17 @@ function DashDamages()
 	_inst.owner_id = ObjPlayer;
 	_inst.damage = dash_damages;
 	_inst.knockback_time = knockback_time;
+}
+
+
+function PlayerAttack()
+{
+	instance_create_layer(ObjNeedle.x,ObjNeedle.y,"Weapons",ObjNeedleThrown);
+	ObjNeedleThrown.image_angle=ObjNeedle.image_angle;
+
+	ObjPlayer.walk_spd = 0;
+
+	instance_destroy(ObjNeedle);	
 }
 
 
