@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings": [
+    {"name":"Itbox_Changement-room","order":2,"path":"folders/Objects/Itbox_Changement-room.yy",},
     {"name":"Floor","order":8,"path":"folders/Sprites/Final Sprites/Envirronement/Floor.yy",},
     {"name":"Wall","order":7,"path":"folders/Sprites/Final Sprites/Envirronement/Wall.yy",},
-    {"name":"Itbox_Changement-room","order":2,"path":"folders/Objects/Itbox_Changement-room.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"SprSolidv2","order":7,"path":"sprites/SprSolidv2/SprSolidv2.yy",},
