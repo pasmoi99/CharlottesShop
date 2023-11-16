@@ -23,10 +23,6 @@ if state != states.DEAD
 			CheckFacing();
 			EnenmyAnim();
 		break;
-		case states.DEAD:
-			CalcEntityMovement();
-			EnenmyAnim();
-		break;
 		case states.KNOCKBACK:
 			KbMovement();
 			EnenmyAnim();
@@ -38,6 +34,16 @@ if state != states.DEAD
 			{
 				state = states.IDLE;
 			}
+		break;
+	}
+}
+else
+{
+	switch(state)
+	{
+		case states.DEAD:
+			CalcEntityMovement();
+			EnenmyAnim();
 		break;
 	}
 }

@@ -12,3 +12,6 @@ knockback_time = 30;
 show_dash_up = 0;
 
 hurt_time = 30; // hurt frames
+
+feedback_damages = false;
+feedback_damages_time = 10;

@@ -17,6 +17,13 @@ switch(state)
 		check_dash();
 		PlayerAnim();
 	break;
+	
+	case states.ATTACK :
+		reset_variables()
+		get_input();
+		calc_movement();
+		PlayerAnim();
+	break;
 		
 	case states.MOVE :
 		reset_variables()
@@ -90,80 +97,83 @@ if(hp>MAX_HP)
 //else
 //{
 
-if (controller_obj.portNum != 29)
+if (ObjPlayer.state != states.DEAD)
 {
-	if (controller_obj.shoulderlb == true)
+	if (controller_obj.portNum != 29)
 	{
-		weapon_scissors = true;
-	}
-	else
-	{
-		weapon_scissors = false;
-	}
-}
-
-if(weapon_scissors==false)
-{
-	if (instance_exists(ObjScissors))
-	{
-		instance_destroy(ObjScissors);
-	}
-	//spawn needle 	
-	if controller_obj.portNum == 29
-	{
-		if mouse_check_button (mb_left)
+		if (controller_obj.shoulderr == true) or (controller_obj.shoulderl == true)
 		{
-			if !instance_exists(ObjNeedle)
+			if (can_switch == true)
 			{
-				if (walk_spd!=0)
-				{
-					instance_create_layer(x,y,"Weapons",ObjNeedle);
-				}
-				/*var _xx = ObjPlayer.x + lengthdir_x(64, image_angle);
-				var _yy = ObjPlayer.y + lengthdir_y(64, image_angle);
-			
-				x = _xx;
-				y = _yy;*/
+				can_switch = false;
+				alarm[10] = 30;
+				weapon_scissors = !weapon_scissors;
 			}
 		}
 	}
-	else
+
+	if(weapon_scissors==false)
 	{
-		/*
-		var _hcursor = gamepad_axis_value(controller_obj.portNum, gp_axisrh);
-		var _vcursor = gamepad_axis_value(controller_obj.portNum, gp_axisrv);
+		if (instance_exists(ObjScissors))
+		{
+			instance_destroy(ObjScissors);
+		}
+		//spawn needle 	
+		if controller_obj.portNum == 29
+		{
+			if mouse_check_button (mb_left)
+			{
+				if !instance_exists(ObjNeedle)
+				{
+					if (walk_spd!=0)
+					{
+						instance_create_layer(x,y,"Weapons",ObjNeedle);
+					}
+					/*var _xx = ObjPlayer.x + lengthdir_x(64, image_angle);
+					var _yy = ObjPlayer.y + lengthdir_y(64, image_angle);
+			
+					x = _xx;
+					y = _yy;*/
+				}
+			}
+		}
+		else
+		{
+			/*
+			var _hcursor = gamepad_axis_value(controller_obj.portNum, gp_axisrh);
+			var _vcursor = gamepad_axis_value(controller_obj.portNum, gp_axisrv);
 		
-		if abs(_hcursor) < .2
-			_hcursor = 0;
-		if abs(_vcursor) < .2
-			_vcursor = 0;
-		*/
-		if (controller_obj.hcursor != 0) || (controller_obj.vcursor != 0)
-		{
-			if !instance_exists(ObjNeedle)
+			if abs(_hcursor) < .2
+				_hcursor = 0;
+			if abs(_vcursor) < .2
+				_vcursor = 0;
+			*/
+			if (controller_obj.hcursor != 0) || (controller_obj.vcursor != 0)
 			{
-				if (walk_spd!=0)
+				if !instance_exists(ObjNeedle)
 				{
-					instance_create_layer(x,y,"Weapons",ObjNeedle);
-				}
-				/*var _xx = ObjPlayer.x + lengthdir_x(64, image_angle);
-				var _yy = ObjPlayer.y + lengthdir_y(64, image_angle);
+					if (walk_spd!=0)
+					{
+						instance_create_layer(x,y,"Weapons",ObjNeedle);
+					}
+					/*var _xx = ObjPlayer.x + lengthdir_x(64, image_angle);
+					var _yy = ObjPlayer.y + lengthdir_y(64, image_angle);
 			
-				x = _xx;
-				y = _yy;*/
+					x = _xx;
+					y = _yy;*/
+				}
 			}
 		}
 	}
-}
 
-else
-{
-	if !instance_exists(ObjScissors)
+	else
 	{
-		instance_create_layer(x,y,"Weapons",ObjScissors);
+		if !instance_exists(ObjScissors)
+		{
+			instance_create_layer(x,y,"Weapons",ObjScissors);
+		}
 	}
 }
-
 
 
 if !instance_exists(ObjNeedleThrown)

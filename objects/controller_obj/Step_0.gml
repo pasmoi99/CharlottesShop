@@ -70,4 +70,4 @@ shoulderr = gamepad_button_check(portNum, gp_shoulderr)
 shoulderrb = gamepad_button_check(portNum, gp_shoulderrb)
 
 select = gamepad_button_check(portNum, gp_select)
-start = gamepad_button_check(portNum, gp_start)
+start = gamepad_button_check_released(portNum, gp_start)

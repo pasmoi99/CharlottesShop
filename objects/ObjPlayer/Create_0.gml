@@ -25,8 +25,9 @@ dash_damages = 10;
 damaging_dash_count = 0;
 
 weapon_scissors = false;
-can_scissors = true;
-scissor_cd = 300;
+can_switch = true;
+can_scissor = true;
+scissor_cd = 150;
 
 is_touch = false;
 
@@ -37,7 +38,7 @@ layer_create(depth,"Weapons");
 instance_create_layer(0,0,"Control",ObjCamera);
 instance_create_layer(0,0,"Pause",ObjPause);
 instance_create_layer(0,0,"Weapons",ObjNeedleThread);
-instance_create_layer(0,0,"Control",controller_obj);
+instance_create_layer(0,0,layer,controller_obj);
 
 // power up code
 

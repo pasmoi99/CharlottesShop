@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SprWallMiddleLeft",
-    "path": "sprites/SprWallMiddleLeft/SprWallMiddleLeft.yy",
+    "name": "SprWallMidleLeft",
+    "path": "sprites/SprWallMidleLeft/SprWallMidleLeft.yy",
   },
   "spriteMaskId": null,
   "visible": true,
