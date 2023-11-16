@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "Transition_BG",
-    "path": "folders/Sprites/Final Sprites/Transition_BG.yy",
+    "path": "folders/Sprites/Transition_BG.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -28,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_Punaise",
-    "path": "sprites/spr_Punaise/spr_Punaise.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

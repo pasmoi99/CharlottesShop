@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"59fb6c1a-0710-4022-a5fd-f1fb56082458",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f0ed332a-695c-47c9-a458-7dc681e8e551",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 512,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"358e915e-09dc-462b-81b3-889c2535fb1e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bc6ce7eb-9725-41ef-9ed6-960f036fb30c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Wall",
-    "path": "folders/Sprites/Final Sprites/Envirronement/Wall.yy",
+    "name": "Envirronement",
+    "path": "folders/Sprites/Final Sprites/Envirronement.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"59fb6c1a-0710-4022-a5fd-f1fb56082458","path":"sprites/SprWallTopCenter/SprWallTopCenter.yy",},},},"Disabled":false,"id":"fa0d61c5-fa6e-4d6c-894e-881c583ecc21","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f0ed332a-695c-47c9-a458-7dc681e8e551","path":"sprites/SprWallTopCenter/SprWallTopCenter.yy",},},},"Disabled":false,"id":"1db21603-a1d2-4d5a-98c3-7c63f38c6a59","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

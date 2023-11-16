@@ -4,13 +4,17 @@ hp = 100;
 walk_spd = 15;
 
 MAX_WALK_SPEED = 15;
+
 NEEDLE_RANGE = 720;
+can_needle = true;
+needle_cd = 30;
 
 //first_click=1;
 
 dash_spd = 60;
 dash_arr = [];
-can_dash = true;
+can_dash = false;
+alarm[5] = 30;
 dash_cooldown = 120;
 dash_timer_initial = 15;
 dash_timer = dash_timer_initial;
@@ -27,8 +31,9 @@ damaging_dash_count = 0;
 weapon_scissors = false;
 can_switch = true;
 can_scissor = true;
-scissor_cd = 150;
+scissor_cd = 75;
 
+touch_count = 0;
 is_touch = false;
 
 layer_create(-100,"Pause");
@@ -38,7 +43,7 @@ layer_create(depth,"Weapons");
 instance_create_layer(0,0,"Control",ObjCamera);
 instance_create_layer(0,0,"Pause",ObjPause);
 instance_create_layer(0,0,"Weapons",ObjNeedleThread);
-instance_create_layer(0,0,layer,controller_obj);
+instance_create_layer(0,0,"Control",controller_obj);
 
 // power up code
 

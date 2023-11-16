@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SprScissorsTemp",
-    "path": "sprites/SprScissorsTemp/SprScissorsTemp.yy",
+    "name": "SprCiseau",
+    "path": "sprites/SprCiseau/SprCiseau.yy",
   },
   "spriteMaskId": null,
   "visible": true,

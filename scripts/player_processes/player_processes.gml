@@ -259,23 +259,38 @@ function PlayerAnim()
 	switch(state)
 	{
 		case states.IDLE:
-			SwitchSpine("rose_idle");
-			ShowHurt();
+			SwitchSpinePlayer("rose_idle");
+			ShowHurtPlayer();
 		break;
 		case states.MOVE:
-			SwitchSpine("rose_walk");
-			ShowHurt();
+			SwitchSpinePlayer("rose_walk");
+			ShowHurtPlayer();
 		break;
 		case states.ATTACK:
-			SwitchSpine("rose_dash");
+			SwitchSpinePlayer("rose_attack_idle");
 		break;
 		case states.KNOCKBACK:
-			ShowHurt();
+			ShowHurtPlayer();
 		break;
 		case states.DEAD:
-			SwitchSpine("rose_idle");
+			SwitchSpinePlayer("rose_death");
 		break; 
 		case states.DASH:
-			SwitchSpine("rose_dash");
+			SwitchSpinePlayer("rose_dash");
 	}
+}
+
+
+function SwitchSpinePlayer(spine)
+{
+	if (skeleton_animation_get() != spine)
+	{
+		skeleton_animation_set(spine);
+	}
+}
+
+function ShowHurtPlayer()
+{
+	if knockback_time-- > 0 
+		SwitchSpine("idle");
 }

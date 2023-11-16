@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SprNeedleTemp",
-    "path": "sprites/SprNeedleTemp/SprNeedleTemp.yy",
+    "name": "SprAiguille",
+    "path": "sprites/SprAiguille/SprAiguille.yy",
   },
   "spriteMaskId": null,
   "visible": true,

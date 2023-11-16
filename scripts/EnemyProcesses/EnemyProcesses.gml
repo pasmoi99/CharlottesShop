@@ -72,24 +72,24 @@ function EnenmyAnim()
 	switch(state)
 	{
 		case states.IDLE:
-			SwitchSpine("rose_idle");
+			SwitchSpine("idle");
 			ShowHurt();
 		break;
 		case states.MOVE:
-			SwitchSpine("rose_walk");
+			SwitchSpine("walk");
 			ShowHurt();
 		break;
 		case states.ATTACK:
-			SwitchSpine("rose_dash");
+			SwitchSpine("attack");
 		break;
 		case states.KNOCKBACK:
 			ShowHurt();
 		break;
 		case states.DEAD:
-			SwitchSpine("rose_idle");
+			SwitchSpine("death");
 		break; 
 		case states.STUN:
-			SwitchSpine("rose_idle");
+			SwitchSpine("awakening");
 		break; 
 	}
 	//set depth
@@ -110,7 +110,7 @@ function SwitchSpine(spine)
 function ShowHurt()
 {
 	if knockback_time-- > 0 
-		SwitchSpine("rose_idle");
+		SwitchSpine("idle");
 }
 
 

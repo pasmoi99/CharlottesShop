@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fcc6b86d-acf0-4e67-a34b-c6a2a4c6e787",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9aedabb8-4e81-4fa1-a512-a18ed827471d",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 512,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c1105f4a-6d79-4ed5-b6a9-16a1f719ba76","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3891f2bb-bee1-4b77-9d9d-a4a941bceabe","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Floor",
-    "path": "folders/Sprites/Final Sprites/Envirronement/Floor.yy",
+    "name": "Envirronement",
+    "path": "folders/Sprites/Final Sprites/Envirronement.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fcc6b86d-acf0-4e67-a34b-c6a2a4c6e787","path":"sprites/SprFloortile/SprFloortile.yy",},},},"Disabled":false,"id":"33198ea9-ad86-4e61-a06e-9520f3faf6e5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9aedabb8-4e81-4fa1-a512-a18ed827471d","path":"sprites/SprFloortile/SprFloortile.yy",},},},"Disabled":false,"id":"6ea7da29-29fe-462b-bf37-577a152729f6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

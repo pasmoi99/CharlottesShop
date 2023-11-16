@@ -27,10 +27,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "SprRoom1Test",
-    "path": "sprites/SprRoom1Test/SprRoom1Test.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

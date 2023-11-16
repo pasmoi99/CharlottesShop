@@ -101,12 +101,12 @@ if (ObjPlayer.state != states.DEAD)
 {
 	if (controller_obj.portNum != 29)
 	{
-		if (controller_obj.shoulderr == true) or (controller_obj.shoulderl == true)
+		if ((controller_obj.shoulderr == true) or (controller_obj.shoulderl == true)) and (!instance_exists(ObjNeedleThrown))
 		{
 			if (can_switch == true)
 			{
 				can_switch = false;
-				alarm[10] = 30;
+				alarm[10] = 5;
 				weapon_scissors = !weapon_scissors;
 			}
 		}
@@ -171,6 +171,10 @@ if (ObjPlayer.state != states.DEAD)
 		if !instance_exists(ObjScissors)
 		{
 			instance_create_layer(x,y,"Weapons",ObjScissors);
+			if (instance_exists(ObjScissors)) and (instance_exists(ObjNeedle))
+			{
+				instance_destroy(ObjNeedle);
+			}
 		}
 	}
 }
@@ -180,6 +184,17 @@ if !instance_exists(ObjNeedleThrown)
 {
 	ObjPlayer.touch_count = 0;
 }
+
+
+
+if (place_meeting(ObjPlayer.x, ObjPlayer.y, ObjDoor) == false)
+{	
+	if (ObjDoor.image_alpha < 1)
+	{
+		ObjDoor.image_alpha += 0.025;
+	}
+}
+
 
 //if (shield==true)
 //{	

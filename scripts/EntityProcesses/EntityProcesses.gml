@@ -30,6 +30,8 @@ function DamageEntity(_tid, _sid, _damage, _time)
 					alarm[3] = invincibility_time;
 					hp -= _damage;
 					var _dead = IsDead();
+					feedback_damages = true;
+					alarm[2] = feedback_damages_time;
 					path_end();
 					//set knockback distance
 					if _dead

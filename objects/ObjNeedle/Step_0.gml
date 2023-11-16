@@ -46,7 +46,12 @@ else
 			
 		if (controller_obj.shoulderrb == true)
 		{
-			PlayerAttack()
+			if (ObjPlayer.can_needle == true)
+			{
+				ObjPlayer.can_needle = false;
+				ObjPlayer.alarm[4] = ObjPlayer.needle_cd;
+				PlayerAttack()
+			}
 		}
 	}
 	else 

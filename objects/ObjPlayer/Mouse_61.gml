@@ -4,5 +4,8 @@
 
 if (controller_obj.portNum == 29)
 {
-	weapon_scissors = !weapon_scissors;
+	if  !instance_exists(ObjNeedleThrown)
+	{
+		weapon_scissors = !weapon_scissors;
+	}
 }
