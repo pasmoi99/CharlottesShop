@@ -25,7 +25,8 @@ dash_damages = 10;
 damaging_dash_count = 0;
 
 weapon_scissors = false;
-
+can_scissors = true;
+scissor_cd = 300;
 
 is_touch = false;
 
