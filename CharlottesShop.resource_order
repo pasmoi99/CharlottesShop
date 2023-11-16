@@ -1,6 +1,11 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"SprFloortile5","order":5,"path":"sprites/SprFloortile5/SprFloortile5.yy",},
+    {"name":"SprFloortile6","order":6,"path":"sprites/SprFloortile6/SprFloortile6.yy",},
+    {"name":"SprFloortile3","order":3,"path":"sprites/SprFloortile3/SprFloortile3.yy",},
+    {"name":"SprFloortile2","order":2,"path":"sprites/SprFloortile2/SprFloortile2.yy",},
+    {"name":"SprFloortile4","order":4,"path":"sprites/SprFloortile4/SprFloortile4.yy",},
     {"name":"obj_controller_transition","order":1,"path":"objects/obj_controller_transition/obj_controller_transition.yy",},
     {"name":"SprFloortile","order":1,"path":"sprites/SprFloortile/SprFloortile.yy",},
   ],
