@@ -3,6 +3,8 @@
     {"name":"Pause","order":1,"path":"folders/Sprites/Final Sprites/Pause.yy",},
     {"name":"TitreMenu","order":2,"path":"folders/Sprites/Final Sprites/TitreMenu.yy",},
     {"name":"Transition_BG","order":3,"path":"folders/Sprites/Final Sprites/Transition_BG.yy",},
+    {"name":"Wall","order":7,"path":"folders/Sprites/Final Sprites/Envirronement/Wall.yy",},
+    {"name":"Floor","order":8,"path":"folders/Sprites/Final Sprites/Envirronement/Floor.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"SprWallMidleRight","order":9,"path":"sprites/SprWallMidleRight/SprWallMidleRight.yy",},
@@ -80,5 +82,13 @@
     {"name":"ObjFurniture","order":3,"path":"objects/ObjFurniture/ObjFurniture.yy",},
     {"name":"ObjSprBonusShield","order":1,"path":"objects/ObjSprBonusShield/ObjSprBonusShield.yy",},
     {"name":"ObjSolid","order":4,"path":"objects/ObjSolid/ObjSolid.yy",},
+    {"name":"SprWallMiddleRight1","order":7,"path":"sprites/SprWallMiddleRight1/SprWallMiddleRight1.yy",},
+    {"name":"Marionette","order":2,"path":"sounds/Marionette/Marionette.yy",},
+    {"name":"SprWallCorner","order":5,"path":"sprites/SprWallCorner/SprWallCorner.yy",},
+    {"name":"SprWallCenterCornerRight","order":4,"path":"sprites/SprWallCenterCornerRight/SprWallCenterCornerRight.yy",},
+    {"name":"SprWallMiddleLeft","order":6,"path":"sprites/SprWallMiddleLeft/SprWallMiddleLeft.yy",},
+    {"name":"Needle_Throw","order":1,"path":"sounds/Needle_Throw/Needle_Throw.yy",},
+    {"name":"SprWallCenterCornerLeft","order":3,"path":"sprites/SprWallCenterCornerLeft/SprWallCenterCornerLeft.yy",},
+    {"name":"TangledIn","order":1,"path":"sounds/TangledIn/TangledIn.yy",},
   ],
 }

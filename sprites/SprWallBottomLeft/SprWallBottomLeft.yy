@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Envirronement",
-    "path": "folders/Sprites/Final Sprites/Envirronement.yy",
+    "name": "Wall",
+    "path": "folders/Sprites/Final Sprites/Envirronement/Wall.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
