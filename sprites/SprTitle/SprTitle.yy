@@ -7,7 +7,7 @@
   "bbox_right": 287,
   "bbox_top": 0,
   "bboxMode": 0,
-  "collisionKind": 4,
+  "collisionKind": 1,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
   "edgeFiltering": false,
@@ -29,7 +29,7 @@
   "origin": 4,
   "parent": {
     "name": "TitreMenu",
-    "path": "folders/Sprites/TitreMenu.yy",
+    "path": "folders/Sprites/Final Sprites/TitreMenu.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

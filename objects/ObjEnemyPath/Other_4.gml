@@ -10,3 +10,10 @@ global.mp_grid = mp_grid_create(0, 0, _w, _h, TS, TS);
 
 //add solid instance to grid
 mp_grid_add_instances(global.mp_grid, ObjSolid, true);
+mp_grid_add_instances(global.mp_grid, ObjSolidSup, true);
+mp_grid_add_instances(global.mp_grid, ObjSolidFull, true);
+
+if instance_exists(ObjDoor)
+{
+	mp_grid_add_instances(global.mp_grid, ObjDoor, true);
+}

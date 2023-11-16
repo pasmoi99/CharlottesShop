@@ -75,9 +75,27 @@ function DamageEntity(_tid, _sid, _damage, _time)
 										instance_create_depth(ObjNeedleThrown.x,y,ObjNeedleThrown.depth,ObjNeedleBack);
 										ObjNeedleBack.image_angle=ObjNeedleThrown.image_angle;
 										instance_destroy(ObjNeedleThrown);
+										
 									}
+									
+									var _distance_repack = 300;
+								
+									var _dirrepack = point_direction(ObjPlayer.x, ObjPlayer.y, _tid.x, _tid.y);
+		
+									//get distance we are moving
+									var _hrepack = lengthdir_x(_distance_repack, _dirrepack);
+									var _vrepack = lengthdir_y(_distance_repack, _dirrepack);
+		
+									//add movement to players position
+									_tid.x = ObjPlayer.x + _hrepack;
+									_tid.y = ObjPlayer.y + _vrepack;
+									var _stun_duration = random_range(120,600);
+									GetStun();
+									alarm[9] = _stun_duration;
+									is_touch = false;
+									
 								}
-
+								/*
 								var _distance_repack = 300;
 								
 								var _dirrepack = point_direction(ObjPlayer.x, ObjPlayer.y, _tid.x, _tid.y);
@@ -93,6 +111,7 @@ function DamageEntity(_tid, _sid, _damage, _time)
 								GetStun();
 								alarm[9] = _stun_duration;
 								is_touch = false;
+								*/
 							}	
 						}
 					}
@@ -128,7 +147,10 @@ function IsDead()
 					//player sound
 				break;
 			}
-			alarm[6] = 120;
+			if (object_index == ObjPlayer)
+				alarm[6] = 60;
+			if (object_index == ObjEnemy)
+				alarm[6] = 120;
 			return true;
 		}
 	}
