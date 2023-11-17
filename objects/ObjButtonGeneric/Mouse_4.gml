@@ -1,7 +1,7 @@
 switch (image_index)
 {
     case 0:
-        obj_controller_transition.room_transition = Roomtuto;
+        obj_controller_transition.room_transition = RoomCinematicDebut1;
 		instance_create_depth(0, 0, -100, Obj_transition);
     break;
 

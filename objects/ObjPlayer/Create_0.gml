@@ -43,6 +43,7 @@ layer_create(-100,"Pause");
 layer_create(-100,"Control");
 layer_create(-100,"Menus");
 layer_create(depth,"Weapons");
+layer_create(depth,"Bullet_Layer");
 if (!instance_exists(ObjCamera))
 {
 	instance_create_layer(0,0,"Control",controller_obj);

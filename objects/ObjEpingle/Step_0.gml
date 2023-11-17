@@ -1,4 +1,4 @@
-if (mouse_check_button(mb_left))
+if (mouse_check_button(mb_right))
 {
 dart_x_spd = lengthdir_x(dart_throw_speed,image_angle);
 dart_y_spd = lengthdir_y(dart_throw_speed,image_angle);

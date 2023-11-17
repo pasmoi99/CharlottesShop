@@ -213,6 +213,6 @@ if instance_exists(ObjDoor)
 	
 if ((powerup == 1) && mouse_check_button(mb_right))
 {
-	instance_create_layer(x, y,"Bullets_Layer", ObjWeaponPunaise);
+	instance_create_layer(x, y,"Bullet_Layer", ObjEpingle);
 }	
 
