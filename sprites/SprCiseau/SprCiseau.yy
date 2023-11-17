@@ -26,7 +26,7 @@
   "origin": 9,
   "parent": {
     "name": "Weapons",
-    "path": "folders/Sprites/Placeholder Sprites/Weapons.yy",
+    "path": "folders/Sprites/Final Sprites/Weapons.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

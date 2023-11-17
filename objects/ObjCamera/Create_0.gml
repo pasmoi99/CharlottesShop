@@ -14,3 +14,7 @@ var _ypos = (_dheight / 2) - view_hport[0]/2;
 window_set_rectangle(_xpos, _ypos, view_wport[0], view_hport[0]);
 
 surface_resize(application_surface, view_wport[0], view_hport[0]);
+view_x= camera_get_view_x(view_camera[0]);
+view_y= camera_get_view_y(view_camera[0]);
+view_w= camera_get_view_width(view_camera[0]);
+view_h= camera_get_view_height(view_camera[0]);
