@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SprDollchair",
-    "path": "sprites/SprDollchair/SprDollchair.yy",
+    "name": "SprDollChair",
+    "path": "sprites/SprDollChair/SprDollChair.yy",
   },
   "spriteMaskId": null,
   "visible": true,
