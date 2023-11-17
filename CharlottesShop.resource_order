@@ -1,14 +1,14 @@
 {
   "FolderOrderSettings": [
     {"name":"Itbox_Changement-room","order":2,"path":"folders/Objects/Itbox_Changement-room.yy",},
+    {"name":"Epingle","order":1,"path":"folders/Objects/Weapons/Epingle.yy",},
     {"name":"Floor","order":8,"path":"folders/Sprites/Final Sprites/Envirronement/Floor.yy",},
-    {"name":"Wall","order":7,"path":"folders/Sprites/Final Sprites/Envirronement/Wall.yy",},
     {"name":"Frames","order":9,"path":"folders/Sprites/Final Sprites/Envirronement/Frames.yy",},
+    {"name":"Wall","order":7,"path":"folders/Sprites/Final Sprites/Envirronement/Wall.yy",},
     {"name":"Pause","order":1,"path":"folders/Sprites/Final Sprites/Pause.yy",},
     {"name":"TitreMenu","order":2,"path":"folders/Sprites/Final Sprites/TitreMenu.yy",},
     {"name":"Transition_BG","order":3,"path":"folders/Sprites/Final Sprites/Transition_BG.yy",},
     {"name":"Itbox_room_changement","order":1,"path":"folders/Sprites/Itbox_room_changement.yy",},
-    {"name":"Epingle","order":1,"path":"folders/Objects/Weapons/Epingle.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"ObjSolid","order":4,"path":"objects/ObjSolid/ObjSolid.yy",},

@@ -30,7 +30,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "SprEpingle",
+    "path": "sprites/SprEpingle/SprEpingle.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

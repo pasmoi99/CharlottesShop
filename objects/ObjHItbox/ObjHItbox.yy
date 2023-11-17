@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ObjItbox",
+  "name": "ObjHItbox",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"ObjPlayer","path":"objects/ObjPlayer/ObjPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
@@ -34,8 +34,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "Itbox",
-    "path": "sprites/Itbox/Itbox.yy",
+    "name": "HItbox",
+    "path": "sprites/HItbox/HItbox.yy",
   },
   "spriteMaskId": null,
   "visible": false,
