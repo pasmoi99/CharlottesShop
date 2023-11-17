@@ -1,18 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ObjDollchiar",
-  "eventList": [],
+  "name": "ObjTuto1",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Blocks",
-    "path": "folders/Objects/Blocks.yy",
+    "name": "Tuto",
+    "path": "folders/Objects/Cinematic/Tuto.yy",
   },
-  "parentObjectId": {
-    "name": "ObjSolid",
-    "path": "objects/ObjSolid/ObjSolid.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SprDollChair",
-    "path": "sprites/SprDollChair/SprDollChair.yy",
+    "name": "Sprite101",
+    "path": "sprites/Sprite101/Sprite101.yy",
   },
   "spriteMaskId": null,
   "visible": true,

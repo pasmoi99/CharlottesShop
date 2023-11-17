@@ -1,15 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ObjCollideDialogs",
+  "name": "ObjTuto2",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"ObjPlayer","path":"objects/ObjPlayer/ObjPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "dialogs",
-    "path": "folders/Objects/dialogs.yy",
+    "name": "Tuto",
+    "path": "folders/Objects/Cinematic/Tuto.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,9 +28,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "HItbox",
-    "path": "sprites/HItbox/HItbox.yy",
+    "name": "Sprite101",
+    "path": "sprites/Sprite101/Sprite101.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

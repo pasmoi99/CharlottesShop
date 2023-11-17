@@ -83,6 +83,7 @@
     {"name":"inst_59354FAA","path":"rooms/Room_Fin/Room_Fin.yy",},
     {"name":"inst_63A67376","path":"rooms/Room_Fin/Room_Fin.yy",},
     {"name":"inst_192CBF76","path":"rooms/Room_Fin/Room_Fin.yy",},
+    {"name":"inst_4E965EFE","path":"rooms/Room_Fin/Room_Fin.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -164,6 +165,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_192CBF76","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjCorpFille","path":"objects/ObjCorpFille/ObjCorpFille.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ObjCorpFille","path":"objects/ObjCorpFille/ObjCorpFille.yy",},"propertyId":{"name":"roomName","path":"objects/ObjCorpFille/ObjCorpFille.yy",},"value":"RoomCinematicFin1",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4096.0,"y":512.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4E965EFE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjSolid","path":"objects/ObjSolid/ObjSolid.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-512.0,"y":4096.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_63A67376","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjPlayer","path":"objects/ObjPlayer/ObjPlayer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":4384.0,},

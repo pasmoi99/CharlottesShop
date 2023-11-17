@@ -38,5 +38,5 @@
     "path": "sprites/Itbox/Itbox.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
