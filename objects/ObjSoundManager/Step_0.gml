@@ -1,21 +1,5 @@
 /// @description Insert description here
-if ((room == Menu))
-{
-	if (!audio_is_playing(Session_sans_titre_2_mixage_final))
-	{
-		audio_play_sound(Session_sans_titre_2_mixage_final, 100, true);
-		audio_sound_gain(Session_sans_titre_2_mixage_final, global.musicVolume, 0);
-	}
-	
-	if (audio_is_playing(MusiqueJeu))
-	{
-		audio_stop_sound(MusiqueJeu);
-	}
 
-	
-}
-else
-{
 	if (audio_is_playing(Session_sans_titre_2_mixage_final))
 	{
 		audio_stop_sound(Session_sans_titre_2_mixage_final);
@@ -26,4 +10,3 @@ else
 		audio_play_sound(MusiqueJeu, 100, true);
 		audio_sound_gain(MusiqueJeu, global.musicVolume, 0);
 	}
-}

@@ -36,17 +36,23 @@ scissor_cd = 75;
 touch_count = 0;
 is_touch = false;
 
+can_switch_anim_attack = true;
+can_switch_anim_attack_cd = 60;
+
 layer_create(-100,"Pause");
 layer_create(-100,"Control");
 layer_create(-100,"Menus");
 layer_create(depth,"Weapons");
-instance_create_layer(0,0,"Control",ObjCamera);
-instance_create_layer(0,0,"Pause",ObjPause);
-instance_create_layer(0,0,"Weapons",ObjNeedleThread);
-instance_create_layer(0,0,"Control",controller_obj);
-instance_create_layer(0,0,"Control",ObjGame);
-instance_create_layer(0,0,"Control",ObjEnemyPath);
-instance_create_layer(0,0,"Control",ObjSoundManager);
+if (!instance_exists(ObjCamera))
+{
+	instance_create_layer(0,0,"Control",controller_obj);
+	instance_create_layer(0,0,"Control",ObjCamera);
+	instance_create_layer(0,0,"Pause",ObjPause);
+	instance_create_layer(0,0,"Weapons",ObjNeedleThread);
+	instance_create_layer(0,0,"Control",ObjGame);
+	instance_create_layer(0,0,"Control",ObjSoundManager);
+
+}
 // power up code
 
 powerup = false;

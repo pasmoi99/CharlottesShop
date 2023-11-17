@@ -8,9 +8,12 @@ invincibility_time = 60;
 // are chasing player ?
 alert = false;
 // distance to start chasing
-alert_dis = 300;
+alert_dis = 400;
 // distance stop from the player
 attack_dis = 80;
+
+is_awake = false;
+end_awake = false;
 
 // frame of anim of enemy attack (usefull for slower enemy attack)
 attack_frame = 0;

@@ -9,10 +9,7 @@
     "name": "Enemy",
     "path": "folders/Objects/Entity/Enemy.yy",
   },
-  "parentObjectId": {
-    "name": "ObjPuppetParent",
-    "path": "objects/ObjPuppetParent/ObjPuppetParent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

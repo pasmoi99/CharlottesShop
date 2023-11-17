@@ -186,12 +186,14 @@ if !instance_exists(ObjNeedleThrown)
 }
 
 
-
-if (place_meeting(ObjPlayer.x, ObjPlayer.y, ObjDoor) == false)
-{	
-	if (ObjDoor.image_alpha < 1)
-	{
-		ObjDoor.image_alpha += 0.025;
+if instance_exists(ObjDoor)
+{
+	if (place_meeting(ObjPlayer.x, ObjPlayer.y, ObjDoor) == false)
+	{	
+		if (ObjDoor.image_alpha < 1)
+		{
+			ObjDoor.image_alpha += 0.025;
+		}
 	}
 }
 

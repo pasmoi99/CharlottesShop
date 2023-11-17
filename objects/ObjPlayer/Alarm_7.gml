@@ -1,0 +1,1 @@
+can_switch_anim_attack = true;

@@ -1,5 +1,6 @@
 enum states {
 	IDLE,
+	AWAKE,
 	MOVE,
 	ATTACK,
 	DEAD,

@@ -28,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "SprShield",
-    "path": "sprites/SprShield/SprShield.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

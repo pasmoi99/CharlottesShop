@@ -6,7 +6,7 @@ switch(state)
 	break;
 	case states.ATTACK:
 		//image_index = 0;
-		state = states.IDLE;
+		state = states.MOVE;
 	break;
 	
 }

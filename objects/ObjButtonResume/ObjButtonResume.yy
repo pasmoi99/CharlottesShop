@@ -25,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "SprResume",
-    "path": "sprites/SprResume/SprResume.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

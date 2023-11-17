@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SprFinalEnemy",
-    "path": "sprites/SprFinalEnemy/SprFinalEnemy.yy",
+    "name": "SprBabyEnemy",
+    "path": "sprites/SprBabyEnemy/SprBabyEnemy.yy",
   },
   "spriteMaskId": null,
   "visible": true,

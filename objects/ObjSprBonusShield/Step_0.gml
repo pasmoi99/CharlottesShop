@@ -1,2 +1,2 @@
-x = ObjPlayer.x;
-y = ObjPlayer.y - 30;
+x = ObjPlayer.x+10;
+y = ObjPlayer.y+40;

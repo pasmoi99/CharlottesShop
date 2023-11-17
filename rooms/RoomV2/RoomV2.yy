@@ -1413,7 +1413,6 @@
     {"name":"inst_18B04273","path":"rooms/RoomV2/RoomV2.yy",},
     {"name":"inst_3CEED8B9","path":"rooms/RoomV2/RoomV2.yy",},
     {"name":"inst_3A08A02E","path":"rooms/RoomV2/RoomV2.yy",},
-    {"name":"inst_57B9503D","path":"rooms/RoomV2/RoomV2.yy",},
     {"name":"inst_4BB9F37D","path":"rooms/RoomV2/RoomV2.yy",},
     {"name":"inst_782E67E0","path":"rooms/RoomV2/RoomV2.yy",},
     {"name":"inst_73EB1DC8","path":"rooms/RoomV2/RoomV2.yy",},
@@ -2844,7 +2843,6 @@
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3A08A02E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjEnemyPath","path":"objects/ObjEnemyPath/ObjEnemyPath.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":-480.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_57B9503D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjGame","path":"objects/ObjGame/ObjGame.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":-480.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

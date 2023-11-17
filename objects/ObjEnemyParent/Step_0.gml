@@ -5,9 +5,14 @@ if state != states.DEAD
 		case states.IDLE:
 			CalcEntityMovement();
 			CheckForPlayer();
-			if path_index != -1 
-				state = states.MOVE;
+			move_spd = 0;
+			is_awake = true;
+			if path_index != -1
+				state = states.AWAKE;
 			EnenmyAnim();
+		break;
+		case states.AWAKE:
+			CheckForPlayer();
 		break;
 		case states.MOVE:
 			CalcEntityMovement();
@@ -32,7 +37,7 @@ if state != states.DEAD
 			EnenmyAnim();
 			if is_stun = false
 			{
-				state = states.IDLE;
+				state = states.MOVE;
 			}
 		break;
 	}

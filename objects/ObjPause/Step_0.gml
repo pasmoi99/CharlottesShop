@@ -5,7 +5,7 @@ if (keyboard_check_pressed(vk_escape))
 		instance_activate_layer("Ennemy");
 		instance_activate_layer("Instances");
 		instance_activate_layer("Weapons");
-		
+		instance_activate_object(ObjEntityParent);
 		//instance_activate_layer("Bullet_Layer");
 		//state = time_source_get_state(time_source_game);
 		//if (state == time_source_state_active)
@@ -27,6 +27,7 @@ if (keyboard_check_pressed(vk_escape))
 		instance_deactivate_layer("Instances");
 		instance_deactivate_layer("Weapons");
 		instance_deactivate_layer("Ennemy");
+		instance_deactivate_object(ObjEntityParent);
 		view_x= camera_get_view_x(view_camera[0]);
 		view_y= camera_get_view_y(view_camera[0]);
 		view_w= camera_get_view_width(view_camera[0]);

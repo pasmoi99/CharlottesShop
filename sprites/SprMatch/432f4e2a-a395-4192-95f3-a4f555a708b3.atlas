@@ -1,0 +1,227 @@
+MATCH.png
+size:512,512
+filter:Linear,Linear
+arm_L_bot
+bounds:369,187,54,40
+offsets:0,0,55,40
+arm_L_top
+bounds:425,184,51,43
+arm_R_bot
+bounds:423,120,56,36
+arm_R_top
+bounds:369,144,52,41
+body
+bounds:120,413,112,97
+flame/fire 1
+bounds:316,319,26,87
+offsets:2,0,30,87
+rotate:90
+flame/fire 10
+bounds:405,293,34,70
+offsets:2,0,38,70
+rotate:90
+flame/fire 11
+bounds:149,299,37,83
+offsets:3,0,43,83
+flame/fire 12
+bounds:336,469,41,90
+offsets:3,0,47,90
+rotate:90
+flame/fire 13
+bounds:430,448,29,80
+offsets:2,0,33,80
+rotate:90
+flame/fire 14
+bounds:336,433,34,92
+offsets:2,0,38,92
+rotate:90
+flame/fire 15
+bounds:169,215,29,80
+offsets:2,0,33,80
+flame/fire 16
+bounds:423,158,24,52
+offsets:2,0,28,52
+rotate:90
+flame/fire 17
+bounds:478,173,27,56
+offsets:2,0,31,56
+flame/fire 18
+bounds:316,281,36,73
+offsets:2,0,40,73
+rotate:90
+flame/fire 19
+bounds:432,392,27,77
+offsets:2,0,31,77
+rotate:90
+flame/fire 2
+bounds:481,110,29,61
+offsets:2,0,33,61
+flame/fire 20
+bounds:29,22,25,66
+offsets:2,0,29,66
+flame/fire 21
+bounds:413,366,24,74
+offsets:2,0,28,74
+rotate:90
+flame/fire 22
+bounds:432,421,25,78
+offsets:1,0,27,78
+rotate:90
+flame/fire 23
+bounds:143,193,24,88
+offsets:1,0,26,88
+flame/fire 24
+bounds:58,91,25,86
+offsets:2,0,29,86
+flame/fire 25
+bounds:340,176,27,69
+offsets:2,0,31,69
+flame/fire 26
+bounds:251,320,29,90
+offsets:2,0,33,90
+flame/fire 27
+bounds:234,412,25,100
+offsets:2,0,29,100
+rotate:90
+flame/fire 28
+bounds:288,249,26,73
+offsets:2,0,30,73
+flame/fire 29
+bounds:114,93,25,85
+offsets:2,0,29,85
+flame/fire 3
+bounds:392,258,33,70
+offsets:2,0,37,70
+rotate:90
+flame/fire 30
+bounds:2,61,25,95
+offsets:2,0,29,95
+flame/fire 31
+bounds:336,406,25,94
+offsets:1,0,27,94
+rotate:90
+flame/fire 32
+bounds:60,180,29,99
+offsets:2,0,33,99
+flame/fire 33
+bounds:118,187,23,92
+offsets:1,0,25,92
+flame/fire 34
+bounds:98,281,23,100
+offsets:1,0,25,100
+flame/fire 35
+bounds:200,215,23,80
+offsets:1,0,25,80
+flame/fire 36
+bounds:167,106,24,85
+offsets:2,0,28,85
+flame/fire 37
+bounds:29,90,27,87
+offsets:2,0,31,87
+flame/fire 38
+bounds:392,229,27,74
+offsets:2,0,31,74
+rotate:90
+flame/fire 39
+bounds:188,297,31,85
+offsets:2,0,35,85
+flame/fire 4
+bounds:405,329,35,70
+offsets:2,0,39,70
+rotate:90
+flame/fire 40
+bounds:282,324,32,86
+offsets:2,0,36,86
+flame/fire 41
+bounds:23,281,37,100
+offsets:3,0,43,100
+flame/fire 42
+bounds:221,318,28,92
+offsets:2,0,32,92
+flame/fire 43
+bounds:282,154,28,73
+offsets:2,0,32,73
+flame/fire 44
+bounds:234,439,33,100
+offsets:2,0,37,100
+rotate:90
+flame/fire 45
+bounds:120,384,27,99
+offsets:2,0,31,99
+rotate:90
+flame/fire 46
+bounds:62,281,34,100
+offsets:2,0,38,100
+flame/fire 47
+bounds:2,2,24,57
+offsets:2,0,28,57
+flame/fire 48
+bounds:225,239,30,77
+offsets:2,0,34,77
+flame/fire 49
+bounds:23,179,35,100
+offsets:2,0,39,100
+flame/fire 5
+bounds:316,247,32,74
+offsets:2,0,36,74
+rotate:90
+flame/fire 50
+bounds:234,474,36,100
+offsets:2,0,40,100
+rotate:90
+flame/fire 51
+bounds:141,99,24,86
+offsets:2,0,28,86
+flame/fire 52
+bounds:253,153,27,74
+offsets:2,0,31,74
+flame/fire 53
+bounds:85,94,27,84
+offsets:2,0,31,84
+flame/fire 54
+bounds:193,130,26,83
+offsets:2,0,30,83
+flame/fire 55
+bounds:316,380,24,95
+offsets:2,0,28,95
+rotate:90
+flame/fire 56
+bounds:257,242,29,76
+offsets:2,0,33,76
+flame/fire 57
+bounds:316,347,31,85
+offsets:2,0,35,85
+rotate:90
+flame/fire 58
+bounds:91,180,25,99
+offsets:2,0,29,99
+flame/fire 59
+bounds:123,283,24,99
+offsets:1,0,26,99
+flame/fire 6
+bounds:221,138,30,75
+offsets:2,0,34,75
+flame/fire 60
+bounds:56,19,25,69
+offsets:1,0,27,69
+flame/fire 7
+bounds:477,293,33,71
+offsets:2,0,37,71
+flame/fire 8
+bounds:428,479,31,80
+offsets:2,0,35,80
+rotate:90
+flame/fire 9
+bounds:468,231,35,60
+offsets:2,0,39,60
+head
+bounds:2,383,116,127
+offsets:1,1,118,129
+leg_L
+bounds:312,174,26,71
+leg_R
+bounds:312,174,26,71
+match
+bounds:2,158,223,19
+offsets:1,1,225,21
+rotate:90

@@ -32,37 +32,54 @@ function CheckForPlayer()
 	//check if player is close to start chasing
 	var _dis = distance_to_object(ObjPlayer);
 	// for gomove_towards_point(ObjPlayer.x , ObjPlayer.y , 1);
-	
-	// alert for start chasing
-	if ((_dis <= alert_dis) or alert) and _dis > attack_dis
+
+	if (ObjEnemyParent.state != states.AWAKE)
 	{
-		//enemy is now alert
-		alert = true
-	
-		//should we calc our path ?
-		if calc_path_timer-- <= 0
+		// alert for start chasing
+		if ((_dis <= alert_dis) or alert) and _dis > attack_dis
 		{
-			//reset timer
-			calc_path_timer = calc_path_delay; // lag with calc_path_delay = _time; in entity processes
-			
-			// can we make a path to the player ?
-			if x == xp and y == yp var _type = 0 else var _type = 1;
-			var _found_player = mp_grid_path(global.mp_grid, path, x, y, ObjPlayer.x , ObjPlayer.y, _type);
-	
-			//start path if we can reach the player
-			if _found_player
+			//enemy is now alert
+			alert = true
+
+
+			//should we calc our path ?
+			if calc_path_timer-- <= 0
 			{
-				path_start(path, move_spd, path_action_stop, false);
+				//reset timer
+				calc_path_timer = calc_path_delay; // lag with calc_path_delay = _time; in entity processes
+			
+				// can we make a path to the player ?
+				if x == xp and y == yp var _type = 0 else var _type = 1;
+				var _found_player = mp_grid_path(global.mp_grid, path, x, y, ObjPlayer.x , ObjPlayer.y, _type);
+	
+				//start path if we can reach the player
+				if _found_player
+				{
+					path_start(path, move_spd, path_action_stop, false);
+				}
+			}
+		}
+		else
+		{
+			//are we close enought to attack ?
+			if _dis <= attack_dis 
+			{
+				path_end();
+				state = states.ATTACK;
 			}
 		}
 	}
 	else
 	{
-		//are we close enought to attack ?
-		if _dis <= attack_dis 
+		if is_awake == true
 		{
-			path_end();
-			state = states.ATTACK;
+			is_awake = false;
+			ObjEnemyParent.alarm[10] = 60;
+		}
+		if end_awake == true
+		{
+			ObjEnemyParent.state = states.MOVE;
+			move_spd = 12;
 		}
 	}
 }
@@ -72,8 +89,11 @@ function EnenmyAnim()
 	switch(state)
 	{
 		case states.IDLE:
-			SwitchSpine("idle");
+			SwitchSpine("sleep");
 			ShowHurt();
+		break;
+		case states.AWAKE:
+			SwitchSpine("awakening");
 		break;
 		case states.MOVE:
 			SwitchSpine("walk");
@@ -89,7 +109,7 @@ function EnenmyAnim()
 			SwitchSpine("death");
 		break; 
 		case states.STUN:
-			SwitchSpine("awakening");
+			SwitchSpine("idle");
 		break; 
 	}
 	//set depth
@@ -131,7 +151,7 @@ function KbMovement()
 	//leave state
 	if (knockback_time <= 0)
 		{
-			state = states.IDLE;
+			state = states.MOVE;
 		}
 }
 

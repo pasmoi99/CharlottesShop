@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "SprGameOver",
+  "name": "Sprgameover",
   "bbox_bottom": 1079,
   "bbox_left": 0,
   "bbox_right": 1919,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"67f0feaa-0678-4d72-afb1-2331fbd35902",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2e42b187-cb04-4957-b2b2-92825d760a4e",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 1080,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"90a7243e-4daa-4c40-8b14-059628eba1c7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9ecd14ae-e87d-470f-8118-d9ace20e9289","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Gameover",
-    "path": "folders/Sprites/Final Sprites/Gameover.yy",
+    "name": "Mort",
+    "path": "folders/Sprites/Cinematic/Mort.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "SprGameOver",
+    "name": "Sprgameover",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"67f0feaa-0678-4d72-afb1-2331fbd35902","path":"sprites/SprGameOver/SprGameOver.yy",},},},"Disabled":false,"id":"815cc0ba-db0a-4a00-a71a-8867d0211cf1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2e42b187-cb04-4957-b2b2-92825d760a4e","path":"sprites/Sprgameover/Sprgameover.yy",},},},"Disabled":false,"id":"31e40cad-c286-4065-b747-ac827ac3415d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

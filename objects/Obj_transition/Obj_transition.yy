@@ -28,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_transition",
-    "path": "sprites/spr_transition/spr_transition.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

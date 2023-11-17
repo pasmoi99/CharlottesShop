@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Cinematic",
-    "path": "folders/Sprites/Cinematic.yy",
+    "name": "End",
+    "path": "folders/Sprites/Cinematic/End.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
