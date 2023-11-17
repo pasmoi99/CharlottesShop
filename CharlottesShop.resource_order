@@ -22,6 +22,7 @@
     {"name":"CollisionFin","order":2,"path":"folders/Sprites/CollisionFin.yy",},
     {"name":"Door","order":27,"path":"folders/Sprites/Final Sprites/Envirronement/Door.yy",},
     {"name":"Furniture","order":28,"path":"folders/Sprites/Final Sprites/Envirronement/Furniture.yy",},
+    {"name":"dialogs","order":7,"path":"folders/Objects/dialogs.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"ObjNeedleBack","order":1,"path":"objects/ObjNeedleBack/ObjNeedleBack.yy",},

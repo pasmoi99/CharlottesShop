@@ -87,6 +87,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"CollisionFin","folderPath":"folders/Sprites/CollisionFin.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Door","folderPath":"folders/Sprites/Final Sprites/Envirronement/Door.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Furniture","folderPath":"folders/Sprites/Final Sprites/Envirronement/Furniture.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"dialogs","folderPath":"folders/Objects/dialogs.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"euphorigenic.otf","CopyToMask":3035426170322551022,"filePath":"datafiles",},
@@ -112,6 +113,7 @@
     {"id":{"name":"RoomV2","path":"rooms/RoomV2/RoomV2.yy",},},
     {"id":{"name":"Enum","path":"scripts/Enum/Enum.yy",},},
     {"id":{"name":"SprBigFurniture","path":"sprites/SprBigFurniture/SprBigFurniture.yy",},},
+    {"id":{"name":"ObjCollideDialogs","path":"objects/ObjCollideDialogs/ObjCollideDialogs.yy",},},
     {"id":{"name":"ObjWallTopLeft","path":"objects/ObjWallTopLeft/ObjWallTopLeft.yy",},},
     {"id":{"name":"ObjSprBonusShield","path":"objects/ObjSprBonusShield/ObjSprBonusShield.yy",},},
     {"id":{"name":"SprBack","path":"sprites/SprBack/SprBack.yy",},},
