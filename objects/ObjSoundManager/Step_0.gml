@@ -7,13 +7,30 @@
 
 	if (!audio_is_playing(MusiqueJeu))
 	{
-		audio_play_sound(MusiqueJeu, 100, true);
-		if (audio_is_playing(CinematicTuto1) or audio_is_playing(CinematicTuto2) or audio_is_playing(CinematicTuto3))
-		{
-			audio_sound_gain(MusiqueJeu, global.musicVolume*0.2, 50);
-		}
-		else
-		{
-			audio_sound_gain(MusiqueJeu, global.musicVolume, 50);
-		}
+		audio_play_sound(MusiqueJeu, 50, true);
+		
+	}
+	if (audio_is_playing(CinematicTuto1))
+	{
+		audio_sound_gain(MusiqueJeu, 0.1, 50);
+	}
+	else
+	{
+		audio_sound_gain(MusiqueJeu, global.musicVolume, 50);
+	}
+	if (audio_is_playing(CinematicTuto2))
+	{
+		audio_sound_gain(MusiqueJeu, 0.1, 50);
+	}
+	else
+	{
+		audio_sound_gain(MusiqueJeu, global.musicVolume, 50);
+	}
+	if (audio_is_playing(CinematicTuto3))
+	{
+		audio_sound_gain(MusiqueJeu,0.1, 50);
+	}
+	else
+	{
+		audio_sound_gain(MusiqueJeu, global.musicVolume, 50);
 	}

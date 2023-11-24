@@ -1,6 +1,5 @@
 event_inherited();
 MAX_HP = 100;
-hp = 100;
 walk_spd = 15;
 
 MAX_WALK_SPEED = 15;
@@ -52,6 +51,7 @@ if (!instance_exists(ObjCamera))
 	instance_create_layer(0,0,"Weapons",ObjNeedleThread);
 	instance_create_layer(0,0,"Control",ObjGame);
 	instance_create_layer(0,0,"Control",ObjSoundManager);
+	instance_create_layer(0,0,"Instances",ObjEnemyPath);
 
 }
 // power up code

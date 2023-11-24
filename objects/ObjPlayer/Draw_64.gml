@@ -4,7 +4,7 @@ margeY = 128
 draw_sprite(SprHealthbarBase,0,margeX,margeY);
 draw_sprite_part(SprHealth, 0,
 0, 0,
-sprite_get_width(SprHealth)*hp/100, sprite_get_height(SprHealth), 
+sprite_get_width(SprHealth)*global.player_hp/100, sprite_get_height(SprHealth), 
 margeX, margeY);
 
 
