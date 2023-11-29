@@ -52,8 +52,8 @@ if (!instance_exists(ObjCamera))
 	instance_create_layer(0,0,"Weapons",ObjNeedleThread);
 	instance_create_layer(0,0,"Control",ObjGame);
 	instance_create_layer(0,0,"Control",ObjSoundManager);
-
 }
+
 // power up code
 
 powerup = false;
