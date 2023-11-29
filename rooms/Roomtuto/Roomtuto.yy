@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "Roomtuto",
-  "creationCodeFile": "",
+  "creationCodeFile": "rooms/Roomtuto/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
@@ -103,9 +103,6 @@
     {"name":"inst_407069A8","path":"rooms/Roomtuto/Roomtuto.yy",},
     {"name":"inst_6DE2CB95","path":"rooms/Roomtuto/Roomtuto.yy",},
     {"name":"inst_DBACD12","path":"rooms/Roomtuto/Roomtuto.yy",},
-    {"name":"inst_52748EE4","path":"rooms/Roomtuto/Roomtuto.yy",},
-    {"name":"inst_670C077C","path":"rooms/Roomtuto/Roomtuto.yy",},
-    {"name":"inst_AB8DEE4","path":"rooms/Roomtuto/Roomtuto.yy",},
     {"name":"inst_CD54491","path":"rooms/Roomtuto/Roomtuto.yy",},
     {"name":"inst_31A80E97","path":"rooms/Roomtuto/Roomtuto.yy",},
     {"name":"inst_15F2EDFF","path":"rooms/Roomtuto/Roomtuto.yy",},
@@ -121,9 +118,6 @@
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_230109BD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjPlayer","path":"objects/ObjPlayer/ObjPlayer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1312.0,"y":7680.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_52748EE4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"controller_obj","path":"objects/controller_obj/controller_obj.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-800.0,"y":2432.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_670C077C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjGame","path":"objects/ObjGame/ObjGame.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-992.0,"y":2912.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_AB8DEE4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjEnemyPath","path":"objects/ObjEnemyPath/ObjEnemyPath.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-1056.0,"y":3840.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_31A80E97","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjBonusHealth","path":"objects/ObjBonusHealth/ObjBonusHealth.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1728.0,"y":1696.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_15F2EDFF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjBonusShield","path":"objects/ObjBonusShield/ObjBonusShield.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":1696.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_43FE5C73","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjPause","path":"objects/ObjPause/ObjPause.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-608.0,"y":1984.0,},

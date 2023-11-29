@@ -132,10 +132,18 @@ function IsDead()
 	// check if the instance running this is dead
 	if state != states.DEAD
 	{
-		if hp <= 0
+		if (hp <= 0 or global.player_hp<=0)
 		{
 			state = states.DEAD;
-			hp = 0;
+			switch(object_index)
+			{
+				default:
+					hp = 0;
+				break;
+				case ObjPlayer:
+					global.player_hp=0;
+				break;
+			}
 			image_index = 0;
 			//set death sound
 			switch(object_index)

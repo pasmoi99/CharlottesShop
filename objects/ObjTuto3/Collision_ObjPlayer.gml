@@ -1,4 +1,4 @@
-audio_play_sound(CinematicTuto3, 100, false,5)
+audio_play_sound(CinematicTuto3, 100, false,50)
 
 if audio_is_playing(CinematicTuto3)
 {

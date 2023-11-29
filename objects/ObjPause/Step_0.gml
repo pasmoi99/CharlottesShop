@@ -27,7 +27,13 @@ if (keyboard_check_pressed(vk_escape))
 		instance_deactivate_layer("Instances");
 		instance_deactivate_layer("Weapons");
 		instance_deactivate_layer("Ennemy");
+		if (instance_exists(ObjSprBonusShield))
+		{
+			instance_deactivate_object(ObjSprBonusShield);	
+		}
+			
 		instance_deactivate_object(ObjEntityParent);
+
 
 		if !instance_exists(ObjBtnQuit)
 		{

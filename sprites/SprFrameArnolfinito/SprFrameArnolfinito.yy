@@ -2,8 +2,8 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "SprFrameArnolfinito",
-  "bbox_bottom": 254,
-  "bbox_left": 28,
+  "bbox_bottom": 253,
+  "bbox_left": 29,
   "bbox_right": 224,
   "bbox_top": 1,
   "bboxMode": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"28bc06af-2d4a-492a-bcbe-d2febf568571",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"41059fb1-15f2-48e7-abcc-39de7edeb903",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 256,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"acd36df4-9da2-4731-93c1-3b4dbb4c2639","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"42c838a3-0f42-4e34-8258-c6956709f4c8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"28bc06af-2d4a-492a-bcbe-d2febf568571","path":"sprites/SprFrameArnolfinito/SprFrameArnolfinito.yy",},},},"Disabled":false,"id":"2c40dae1-2228-4587-9627-8724028e0ba7","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"41059fb1-15f2-48e7-abcc-39de7edeb903","path":"sprites/SprFrameArnolfinito/SprFrameArnolfinito.yy",},},},"Disabled":false,"id":"fefe1333-7193-46f9-bdbc-d9a5aa98ba40","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
