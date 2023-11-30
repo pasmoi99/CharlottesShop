@@ -8,7 +8,9 @@ if (keyboard_check_pressed(vk_escape))
 		instance_activate_object(ObjEntityParent);
 		if shield_is_active==true
 		{
+			instance_create_layer(ObjPlayer.x,ObjPlayer.y,"Instances",ObjSprBonusShield);
 			ObjPlayer.shield=true;
+			
 			ObjPlayer.shield_health = ObjPlayer.shield_state;
 			ShowShield();
 		}
@@ -34,6 +36,7 @@ if (keyboard_check_pressed(vk_escape))
 		{
 			instance_destroy(ObjTitreResume);
 		}
+		layer_destroy("Menu");
 		GamePause = false;
 	}
 	else
