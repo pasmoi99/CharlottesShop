@@ -113,6 +113,7 @@
     {"name":"inst_6194F34E","path":"rooms/Roomtuto/Roomtuto.yy",},
     {"name":"inst_1213DBCF","path":"rooms/Roomtuto/Roomtuto.yy",},
     {"name":"inst_43FE5C73","path":"rooms/Roomtuto/Roomtuto.yy",},
+    {"name":"inst_529A75D7","path":"rooms/Roomtuto/Roomtuto.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -236,6 +237,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_36CCF5C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjTuto1","path":"objects/ObjTuto1/ObjTuto1.yy",},"properties":[],"rotation":0.0,"scaleX":1.984375,"scaleY":2.0,"x":256.0,"y":8064.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6194F34E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjTuto2","path":"objects/ObjTuto2/ObjTuto2.yy",},"properties":[],"rotation":0.0,"scaleX":8.0,"scaleY":2.0104141,"x":1024.0,"y":5120.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1213DBCF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjTuto3","path":"objects/ObjTuto3/ObjTuto3.yy",},"properties":[],"rotation":0.0,"scaleX":8.0,"scaleY":1.9895821,"x":1024.0,"y":2048.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_529A75D7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjFlowerTable","path":"objects/ObjFlowerTable/ObjFlowerTable.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":6528.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Sol","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_11CA40B2","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"SprFloortileCornerL","path":"sprites/SprFloortileCornerL/SprFloortileCornerL.yy",},"x":512.0,"y":512.0,},
