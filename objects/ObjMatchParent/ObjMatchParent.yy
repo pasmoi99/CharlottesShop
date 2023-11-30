@@ -20,7 +20,10 @@
     "name": "Enemy",
     "path": "folders/Objects/Entity/Enemy.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "ObjEntityParent",
+    "path": "objects/ObjEntityParent/ObjEntityParent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

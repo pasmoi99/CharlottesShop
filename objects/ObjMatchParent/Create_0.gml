@@ -1,5 +1,5 @@
 event_inherited();
-MAX_HP = 20;
+MAX_HP = 30;
 hp = MAX_HP;
 
 is_invincible = false;
