@@ -6,6 +6,12 @@ if (keyboard_check_pressed(vk_escape))
 		instance_activate_layer("Instances");
 		instance_activate_layer("Weapons");
 		instance_activate_object(ObjEntityParent);
+		if shield_is_active==true
+		{
+			ObjPlayer.shield=true;
+			ObjPlayer.shield_health = ObjPlayer.shield_state;
+			ShowShield();
+		}
 		//instance_activate_layer("Bullet_Layer");
 		//state = time_source_get_state(time_source_game);
 		//if (state == time_source_state_active)
@@ -32,9 +38,18 @@ if (keyboard_check_pressed(vk_escape))
 	}
 	else
 	{
-		instance_deactivate_layer("Instances");
+		
 		instance_deactivate_layer("Weapons");
 		instance_deactivate_layer("Ennemy");
+
+		if instance_exists(ObjSprBonusShield)
+		{
+			shield_is_active=true;
+			shield_state=ObjPlayer.shield_health;
+			instance_destroy(ObjSprBonusShield);
+			
+		}
+		instance_deactivate_layer("Instances");
 		instance_deactivate_object(ObjEntityParent);
 		view_x= camera_get_view_x(view_camera[0]);
 		view_y= camera_get_view_y(view_camera[0]);
