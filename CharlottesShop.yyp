@@ -232,6 +232,7 @@
     {"id":{"name":"SprFloortileCornerLeft","path":"sprites/SprFloortileCornerLeft/SprFloortileCornerLeft.yy",},},
     {"id":{"name":"SprFloortileCornerL","path":"sprites/SprFloortileCornerL/SprFloortileCornerL.yy",},},
     {"id":{"name":"obj_controller_transition","path":"objects/obj_controller_transition/obj_controller_transition.yy",},},
+    {"id":{"name":"ObjTrolley","path":"objects/ObjTrolley/ObjTrolley.yy",},},
     {"id":{"name":"ObjEnemyAttackHitbox","path":"objects/ObjEnemyAttackHitbox/ObjEnemyAttackHitbox.yy",},},
     {"id":{"name":"SprFloortile","path":"sprites/SprFloortile/SprFloortile.yy",},},
     {"id":{"name":"Sprite36","path":"sprites/Sprite36/Sprite36.yy",},},

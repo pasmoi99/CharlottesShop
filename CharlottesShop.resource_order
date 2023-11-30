@@ -132,6 +132,7 @@
     {"name":"SprFloortileCornerRight","order":3,"path":"sprites/SprFloortileCornerRight/SprFloortileCornerRight.yy",},
     {"name":"SprFloortileCornerLeft","order":2,"path":"sprites/SprFloortileCornerLeft/SprFloortileCornerLeft.yy",},
     {"name":"SprFloortileCornerL","order":1,"path":"sprites/SprFloortileCornerL/SprFloortileCornerL.yy",},
+    {"name":"ObjTrolley","order":28,"path":"objects/ObjTrolley/ObjTrolley.yy",},
     {"name":"ObjEnemyAttackHitbox","order":1,"path":"objects/ObjEnemyAttackHitbox/ObjEnemyAttackHitbox.yy",},
     {"name":"Sprite36","order":1,"path":"sprites/Sprite36/Sprite36.yy",},
     {"name":"ObjGeneric2","order":1,"path":"objects/ObjGeneric2/ObjGeneric2.yy",},
