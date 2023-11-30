@@ -181,6 +181,7 @@
     {"name":"SprWallTopCenter","order":11,"path":"sprites/SprWallTopCenter/SprWallTopCenter.yy",},
     {"name":"SprWallMiddleLeft","order":6,"path":"sprites/SprWallMiddleLeft/SprWallMiddleLeft.yy",},
     {"name":"ObjEnemyParent","order":2,"path":"objects/ObjEnemyParent/ObjEnemyParent.yy",},
+    {"name":"SprTrolley","order":8,"path":"sprites/SprTrolley/SprTrolley.yy",},
     {"name":"ObjWallMiddleRight","order":15,"path":"objects/ObjWallMiddleRight/ObjWallMiddleRight.yy",},
     {"name":"SprWallCenterCornerRight","order":4,"path":"sprites/SprWallCenterCornerRight/SprWallCenterCornerRight.yy",},
     {"name":"Room3","order":3,"path":"rooms/Room3/Room3.yy",},

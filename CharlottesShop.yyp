@@ -292,6 +292,7 @@
     {"id":{"name":"SprWallTopCenter","path":"sprites/SprWallTopCenter/SprWallTopCenter.yy",},},
     {"id":{"name":"SprWallMiddleLeft","path":"sprites/SprWallMiddleLeft/SprWallMiddleLeft.yy",},},
     {"id":{"name":"ObjEnemyParent","path":"objects/ObjEnemyParent/ObjEnemyParent.yy",},},
+    {"id":{"name":"SprTrolley","path":"sprites/SprTrolley/SprTrolley.yy",},},
     {"id":{"name":"ObjWallMiddleRight","path":"objects/ObjWallMiddleRight/ObjWallMiddleRight.yy",},},
     {"id":{"name":"SprWallCenterCornerRight","path":"sprites/SprWallCenterCornerRight/SprWallCenterCornerRight.yy",},},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
