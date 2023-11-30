@@ -20,6 +20,14 @@ if (keyboard_check_pressed(vk_escape))
 		{
 			instance_destroy(obj_controller_transition);
 		}
+		if instance_exists(ObjTitrePause)
+		{
+			instance_destroy(ObjTitrePause);
+		}
+		if instance_exists(ObjTitreResume)
+		{
+			instance_destroy(ObjTitreResume);
+		}
 		GamePause = false;
 	}
 	else
@@ -27,17 +35,23 @@ if (keyboard_check_pressed(vk_escape))
 		instance_deactivate_layer("Instances");
 		instance_deactivate_layer("Weapons");
 		instance_deactivate_layer("Ennemy");
-		if (instance_exists(ObjSprBonusShield))
-		{
-			instance_deactivate_object(ObjSprBonusShield);	
-		}
-			
 		instance_deactivate_object(ObjEntityParent);
-
-
+		view_x= camera_get_view_x(view_camera[0]);
+		view_y= camera_get_view_y(view_camera[0]);
+		view_w= camera_get_view_width(view_camera[0]);
+		view_h= camera_get_view_height(view_camera[0]);
 		if !instance_exists(ObjBtnQuit)
 		{
-			instance_create_layer(ObjCamera.view_x + ObjCamera.view_w/2, ObjCamera.view_y + ObjCamera.view_h*0.7, "Menus", ObjBtnQuit);
+			instance_create_layer(view_x + view_w/2, view_y + view_h*0.7, "Menus", ObjBtnQuit);
+		}
+		if (!instance_exists(ObjTitrePause))
+		{
+			instance_create_layer (view_x + view_w/2, view_y + view_h*0.1, "Menus", ObjTitrePause);
+		}
+		if (!instance_exists(ObjTitreResume))
+		{
+			instance_create_layer (view_x + view_w/2, view_y + view_h*0.3, "Menus", ObjTitreResume);
+		
 		}
 		//state = time_source_get_state(time_source_game);
 		//if (state == time_source_state_paused)

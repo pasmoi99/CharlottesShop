@@ -32,6 +32,9 @@
     "name": "SprWallBottomLeft",
     "path": "sprites/SprWallBottomLeft/SprWallBottomLeft.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "SprSolidv2",
+    "path": "sprites/SprSolidv2/SprSolidv2.yy",
+  },
   "visible": true,
 }

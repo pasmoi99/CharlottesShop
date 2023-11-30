@@ -10,8 +10,8 @@
     "path": "folders/Objects/Blocks.yy",
   },
   "parentObjectId": {
-    "name": "ObjSolid",
-    "path": "objects/ObjSolid/ObjSolid.yy",
+    "name": "ObjSolidFull",
+    "path": "objects/ObjSolidFull/ObjSolidFull.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

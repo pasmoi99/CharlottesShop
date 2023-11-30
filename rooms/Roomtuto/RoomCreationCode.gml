@@ -1,1 +1,0 @@
-global.player_hp=100;

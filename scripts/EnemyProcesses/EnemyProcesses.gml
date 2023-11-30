@@ -33,10 +33,10 @@ function CheckForPlayer()
 	var _dis = distance_to_object(ObjPlayer);
 	// for gomove_towards_point(ObjPlayer.x , ObjPlayer.y , 1);
 
-	if (ObjEnemyParent.state != states.AWAKE)
+	if (state != states.AWAKE)
 	{
 		// alert for start chasing
-		if ((_dis <= alert_dis) or alert) and _dis > attack_dis
+		if ((_dis <= alert_dis) or (alert == true)) and _dis > attack_dis
 		{
 			//enemy is now alert
 			alert = true
@@ -74,11 +74,11 @@ function CheckForPlayer()
 		if is_awake == true
 		{
 			is_awake = false;
-			ObjEnemyParent.alarm[10] = 60;
+			alarm[10] = 60;
 		}
 		if end_awake == true
 		{
-			ObjEnemyParent.state = states.MOVE;
+			state = states.MOVE;
 			move_spd = 12;
 		}
 	}
@@ -160,7 +160,7 @@ function DoAttack()
 {
 	// attack player if he is in range, cooldown reset and good attack frame
 	
-	if (image_index >= attack_frame) and can_attack
+	if (image_index >= attack_frame) and (can_attack == true)
 	{
 		//reset cooldown
 		can_attack = false;

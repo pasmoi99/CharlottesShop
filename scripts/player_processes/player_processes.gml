@@ -86,7 +86,7 @@ function calc_movement()
 	}
 	if ((_hmove == 0) and ( _vmove == 0))
 	{
-		state = states.IDLE;
+		ObjPlayer.state = states.IDLE;
 	}
 }
 
@@ -259,6 +259,99 @@ function CollisionDoor()
 			repeat(_disy)
 		{
 			if (!place_meeting(x, y + sign(_ty - y), ObjDoor)) 
+			{
+				y += sign(_ty - y);
+			}
+		}
+	}
+}
+
+
+
+function CollisionDoorLeft()
+{
+	if instance_exists(ObjDoorLeft)
+	{
+		//set target values
+		var _tx = x;
+		var _ty = y;
+	
+		//move back to last step position, out of the collision
+		x = xprevious;
+		y = yprevious;
+	
+		//get max distance we want to move
+		var _disx = ceil(abs(_tx - x));
+		var _disy = ceil(abs(_ty - y));
+	
+		// ensure we are using integers if we are colliding in the x/y axis
+		if (place_meeting(x + _disx * sign(_tx - x), y, ObjDoorLeft))
+		{
+			x = round(x);
+		}
+		if (place_meeting(x, y + _disy * sign(_ty - y), ObjDoorLeft))
+		{
+			y = round(y);
+		}
+	
+		//move as far as in x and y before hitting the solid
+		repeat(_disx)
+		{
+			if (!place_meeting(x + sign(_tx - x), y, ObjDoorLeft)) 
+			{
+				x += sign(_tx - x);
+			}
+		}
+			repeat(_disy)
+		{
+			if (!place_meeting(x, y + sign(_ty - y), ObjDoorLeft)) 
+			{
+				y += sign(_ty - y);
+			}
+		}
+	}
+}
+
+
+
+
+function CollisionDoorRight()
+{
+	if instance_exists(ObjDoorRight)
+	{
+		//set target values
+		var _tx = x;
+		var _ty = y;
+	
+		//move back to last step position, out of the collision
+		x = xprevious;
+		y = yprevious;
+	
+		//get max distance we want to move
+		var _disx = ceil(abs(_tx - x));
+		var _disy = ceil(abs(_ty - y));
+	
+		// ensure we are using integers if we are colliding in the x/y axis
+		if (place_meeting(x + _disx * sign(_tx - x), y, ObjDoorRight))
+		{
+			x = round(x);
+		}
+		if (place_meeting(x, y + _disy * sign(_ty - y), ObjDoorRight))
+		{
+			y = round(y);
+		}
+	
+		//move as far as in x and y before hitting the solid
+		repeat(_disx)
+		{
+			if (!place_meeting(x + sign(_tx - x), y, ObjDoorRight)) 
+			{
+				x += sign(_tx - x);
+			}
+		}
+			repeat(_disy)
+		{
+			if (!place_meeting(x, y + sign(_ty - y), ObjDoorRight)) 
 			{
 				y += sign(_ty - y);
 			}
