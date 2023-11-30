@@ -79,7 +79,7 @@ function CheckForPlayer()
 		if end_awake == true
 		{
 			state = states.MOVE;
-			move_spd = 12;
+			move_spd = 18;
 		}
 	}
 }

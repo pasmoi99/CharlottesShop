@@ -85,10 +85,10 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"State","folderPath":"folders/Sprites/Placeholder Sprites/State.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Weapons","folderPath":"folders/Sprites/Placeholder Sprites/Weapons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Titre_Options","folderPath":"folders/Sprites/Titre_Options.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TitrePause","folderPath":"folders/Sprites/TitrePause.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"VolumeMusique","folderPath":"folders/Sprites/VolumeMusique.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TitrePause","folderPath":"folders/Sprites/TitrePause.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"euphorigenic.otf","CopyToMask":3035426170322551022,"filePath":"datafiles",},

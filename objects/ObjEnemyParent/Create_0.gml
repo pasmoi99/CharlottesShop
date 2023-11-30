@@ -16,14 +16,14 @@ is_awake = false;
 end_awake = false;
 
 // frame of anim of enemy attack (usefull for slower enemy attack)
-attack_frame = 0;
+attack_frame = 18;
 can_attack = true;
-attack_cd = 180;
+attack_cd = 60;
 damage = 20;
 knockback_time = 10;
 
 // move speed enemy
-move_spd = 12;
+move_spd = 18;
 
 // debug shield for all
 shield = false;
