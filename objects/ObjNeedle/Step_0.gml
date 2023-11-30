@@ -12,13 +12,15 @@
 
 if controller_obj.portNum == 29
 {
-	image_angle = point_direction(x, y, mouse_x, mouse_y); //permet de pointer l'aiguille vers la souris
-	ang=point_direction(ObjPlayer.x, ObjPlayer.y, mouse_x, mouse_y)*-1; //donne l'angle en ° que l'aiguille doit indiquer
+	var aim_dir = point_direction(ObjPlayer.x, ObjPlayer.y, mouse_x, mouse_y); //permet de pointer l'aiguille vers la souris
+	image_angle = aim_dir;
 
-	dify=(sprite_height/2)*dsin(ang);
-	difx=(sprite_width/2)*dcos(ang);
-	x=ObjPlayer.x+difx;
-	y=ObjPlayer.y+dify;
+	/*dify=(sprite_height/2)*dsin(ang);
+	difx=(sprite_width/2)*dcos(ang);*/
+	x = ObjPlayer.x+ lengthdir_x(needle_dist, aim_dir);
+	y = ObjPlayer.y+ lengthdir_y(needle_dist, aim_dir);
+	//x=ObjPlayer.x+difx;
+	//y=ObjPlayer.y+dify;
 	
 }
 else

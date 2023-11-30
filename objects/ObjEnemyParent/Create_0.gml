@@ -8,7 +8,7 @@ invincibility_time = 60;
 // are chasing player ?
 alert = false;
 // distance to start chasing
-alert_dis = 400;
+alert_dis =50+ObjPlayer.NEEDLE_RANGE ;
 // distance stop from the player
 attack_dis = 80;
 

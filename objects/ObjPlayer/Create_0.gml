@@ -1,5 +1,6 @@
 event_inherited();
 MAX_HP = 100;
+hp=100;
 walk_spd = 15;
 
 MAX_WALK_SPEED = 15;
