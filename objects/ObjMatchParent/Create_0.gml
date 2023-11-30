@@ -1,5 +1,5 @@
 event_inherited();
-MAX_HP = 20;
+MAX_HP = 30;
 hp = MAX_HP;
 
 is_invincible = false;
@@ -28,7 +28,7 @@ duration_damages = 50;
 knockback_time = 10;
 
 // move speed enemy
-move_spd = 10;
+move_spd = 14;
 
 // debug shield for all
 shield = false;

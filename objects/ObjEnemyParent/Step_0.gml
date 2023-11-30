@@ -52,3 +52,26 @@ else
 		break;
 	}
 }
+
+
+
+if (alert == true)
+{
+	if ((state == states.IDLE) or (state == states.AWAKE))
+	{
+		move_spd = 18;
+		state = states.MOVE;
+	}
+}
+
+if (state == states.STUN)
+{
+	instance_create_depth(self.x, self.y, depth-10, ObjStun);
+}
+else
+{
+	if instance_exists(ObjStun)
+	{
+		instance_destroy(ObjStun);
+	}
+}

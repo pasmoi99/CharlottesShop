@@ -20,6 +20,13 @@ else if (feedback_damages == true)
 		draw_sprite_ext(SprBabyEnemy, image_index, x, y, facing, 1, 0, c_white, 1);
 		gpu_set_fog(false, c_red, 0, 1);
 	}
+	
+		if object_index == ObjMatch
+	{
+		gpu_set_fog(true, c_red, 0, 1);
+		draw_sprite_ext(SprMatch, image_index, x, y, facing, 1, 0, c_white, 1);
+		gpu_set_fog(false, c_red, 0, 1);
+	}
 
 }
 else
@@ -28,7 +35,9 @@ else
 		draw_sprite_ext(SprPlayer, image_index, x, y, facing, 1, 0, c_white, 1);
 	if object_index == ObjEnemy
 		draw_sprite_ext(SprBabyEnemy, image_index, x, y, facing, 1, 0, c_white, 1);
+	if object_index == ObjMatch
+		draw_sprite_ext(SprMatch, image_index, x, y, facing, 1, 0, c_white, 1);
 }
 
 
-draw_text(x, y, state);
+/*draw_text(x, y, state);*/

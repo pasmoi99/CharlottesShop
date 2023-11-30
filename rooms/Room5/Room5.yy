@@ -75,6 +75,7 @@
     {"name":"inst_4FFA15B0","path":"rooms/Room5/Room5.yy",},
     {"name":"inst_2B8DF674","path":"rooms/Room5/Room5.yy",},
     {"name":"inst_6F1A7C64","path":"rooms/Room5/Room5.yy",},
+    {"name":"inst_77CB0214","path":"rooms/Room5/Room5.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -97,6 +98,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5FE201B6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjEnemy","path":"objects/ObjEnemy/ObjEnemy.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2368.0,"y":3104.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1A574138","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjEnemy","path":"objects/ObjEnemy/ObjEnemy.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3392.0,"y":2720.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3BBB0C95","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjEnemy","path":"objects/ObjEnemy/ObjEnemy.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3328.0,"y":1440.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_77CB0214","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjMatch","path":"objects/ObjMatch/ObjMatch.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2368.0,"y":2304.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Frames","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_1E1B090F","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"SprFrameGeoffrey","path":"sprites/SprFrameGeoffrey/SprFrameGeoffrey.yy",},"x":1184.0,"y":96.0,},

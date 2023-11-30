@@ -60,7 +60,7 @@ if (alert == true)
 {
 	if ((state == states.IDLE) or (state == states.AWAKE))
 	{
-		move_spd = 12;
+		move_spd = 14;
 		state = states.MOVE;
 	}
 }

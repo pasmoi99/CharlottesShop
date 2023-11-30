@@ -79,7 +79,14 @@ function CheckForPlayer()
 		if end_awake == true
 		{
 			state = states.MOVE;
-			move_spd = 12;
+			if (object_index = ObjEnemy)
+			{
+				move_spd = 18;
+			}
+			if (object_index = ObjMatch)
+			{
+				move_spd = 14;
+			}
 		}
 	}
 }
