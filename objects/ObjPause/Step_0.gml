@@ -46,6 +46,7 @@ if (keyboard_check_pressed(vk_escape))
 		{
 			shield_is_active=true;
 			shield_state=ObjPlayer.shield_health;
+			ObjPlayer.shield=false
 			instance_destroy(ObjSprBonusShield);
 			
 		}

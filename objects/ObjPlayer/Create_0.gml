@@ -38,7 +38,7 @@ is_touch = false;
 
 can_switch_anim_attack = true;
 can_switch_anim_attack_cd = 60;
-
+/*
 layer_create(-100,"Pause");
 layer_create(-100,"Control");
 layer_create(-100,"Menus");
@@ -55,7 +55,7 @@ if (!instance_exists(ObjCamera))
 	instance_create_layer(0,0,"Instances",ObjEnemyPath);
 
 }
-
+*/
 // power up code
 
 powerup = false;
