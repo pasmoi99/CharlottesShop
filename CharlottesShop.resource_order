@@ -154,6 +154,7 @@
     {"name":"ObjNeedleThread","order":2,"path":"objects/ObjNeedleThread/ObjNeedleThread.yy",},
     {"name":"SprWallTopLeft","order":12,"path":"sprites/SprWallTopLeft/SprWallTopLeft.yy",},
     {"name":"SprFloortileInCornerR2","order":7,"path":"sprites/SprFloortileInCornerR2/SprFloortileInCornerR2.yy",},
+    {"name":"ObjSpawn","order":2,"path":"objects/ObjSpawn/ObjSpawn.yy",},
     {"name":"SprFlowerTable","order":7,"path":"sprites/SprFlowerTable/SprFlowerTable.yy",},
     {"name":"ObjTitrePause","order":2,"path":"objects/ObjTitrePause/ObjTitrePause.yy",},
     {"name":"Needle","order":2,"path":"sounds/Needle/Needle.yy",},

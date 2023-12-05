@@ -1,5 +1,6 @@
 // collid room
-other.x = xposition;
-other.y = yposition;
+
+ObjPlayer.x = ObjSpawn.x;
+ObjPlayer.y = ObjSpawn.y;
 
 room_goto(roomName);

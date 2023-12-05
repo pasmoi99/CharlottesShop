@@ -216,3 +216,7 @@ if ((powerup == 1) && mouse_check_button(mb_right))
 	instance_create_layer(x, y,"Bullet_Layer", ObjEpingle);
 }	
 
+if (shield==true and !instance_exists(ObjSprBonusShield))
+{
+	ShowShield();
+}

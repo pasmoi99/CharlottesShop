@@ -1,5 +1,4 @@
 // collid room
-other.x = xposition;
-other.y = yposition;
+instance_destroy(ObjPlayer);
 
 room_goto(roomName);

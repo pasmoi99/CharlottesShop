@@ -259,6 +259,7 @@
     {"id":{"name":"SprWallTopLeft","path":"sprites/SprWallTopLeft/SprWallTopLeft.yy",},},
     {"id":{"name":"woosh_melee","path":"sprites/woosh_melee/woosh_melee.yy",},},
     {"id":{"name":"SprFloortileInCornerR2","path":"sprites/SprFloortileInCornerR2/SprFloortileInCornerR2.yy",},},
+    {"id":{"name":"ObjSpawn","path":"objects/ObjSpawn/ObjSpawn.yy",},},
     {"id":{"name":"SprFlowerTable","path":"sprites/SprFlowerTable/SprFlowerTable.yy",},},
     {"id":{"name":"ObjTitrePause","path":"objects/ObjTitrePause/ObjTitrePause.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},

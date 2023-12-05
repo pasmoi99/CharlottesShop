@@ -26,6 +26,6 @@ else // si c'est le cas, changer les coordonners de la ficelle
 
 //pourcentage qui varie
 percentage = round(((x - leftLimite) / (rightLimite - leftLimite)) * 100);
-ObjControlerSound.musicVolume = percentage/100;
+global.musicVolume = percentage/100;
 
 clicked = false;

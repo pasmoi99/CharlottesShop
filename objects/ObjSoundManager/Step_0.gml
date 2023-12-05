@@ -12,25 +12,21 @@
 	}
 	if (audio_is_playing(CinematicTuto1))
 	{
-		audio_sound_gain(MusiqueJeu, 0.1, 50);
+		audio_sound_gain(MusiqueJeu,global.musicVolume*0.1, 50);
 	}
-	else
+	
+	else if (audio_is_playing(CinematicTuto2))
 	{
-		audio_sound_gain(MusiqueJeu, global.musicVolume, 50);
+		audio_sound_gain(CinematicTuto2,global.musicVolume*10,50);
+		audio_sound_gain(MusiqueJeu, global.musicVolume*0.1, 50);
 	}
-	if (audio_is_playing(CinematicTuto2))
+
+	else if (audio_is_playing(CinematicTuto3))
 	{
-		audio_sound_gain(MusiqueJeu, 0.1, 50);
+		audio_sound_gain(CinematicTuto3,global.musicVolume*10,50);
+		audio_sound_gain(MusiqueJeu, global.musicVolume*0.1, 50);
 	}
-	else
-	{
-		audio_sound_gain(MusiqueJeu, global.musicVolume, 50);
-	}
-	if (audio_is_playing(CinematicTuto3))
-	{
-		audio_sound_gain(MusiqueJeu,0.1, 50);
-	}
-	else
+	else if (!audio_is_playing(CinematicTuto1) || !audio_is_playing(CinematicTuto2) || audio_is_playing(CinematicTuto3))
 	{
 		audio_sound_gain(MusiqueJeu, global.musicVolume, 50);
 	}
